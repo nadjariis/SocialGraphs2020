@@ -1,8 +1,7 @@
-## Welcome to GitHub Pages
+<h1> Analyzing music genres </h1>
+<h2> Using Network Theory and Natural Language Processing </h2>
+_Created by Thina Thøgersen (), Nina Melin (s154326) and Nadja Riis (s153445)._ 
 
-You can use the [editor on GitHub](https://github.com/nadjariis/SocialGraphs2020/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
 ### Markdown
 
