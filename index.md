@@ -1,4 +1,4 @@
-<h1> Analyzing music genres </h1>
+<h1> Analyzing Music Genres </h1>
 <h2> Using Network Theory and Natural Language Processing </h2>
 _Created by Thina Thøgersen (), Nina Melin (s154326) and Nadja Riis (s153445)._ 
 
