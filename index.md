@@ -14,7 +14,7 @@
 
 ## Finding communities within network
 
-![](images/CommunitySizes.png?raw=true)
+<img src="{{site.url}}/images/CommunitySizes.png" style="display: block; margin: auto;" />
 
 - Show the network, colored by communities.
 
