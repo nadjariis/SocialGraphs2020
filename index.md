@@ -14,6 +14,8 @@
 
 ## Finding communities within network
 
+<img  src="images/CommunitySizes.png" />
+
 - Show the network, colored by communities.
 
 - List the artists in the communities
