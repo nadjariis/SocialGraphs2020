@@ -28,3 +28,5 @@
 - Sentimentanalysis over time
 
 - Wordclouds based on songs for some the five biggest nodes in the artist network
+
+{% include graph_output-11.html %}
