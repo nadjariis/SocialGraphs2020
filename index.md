@@ -29,4 +29,4 @@
 
 {% include graph_output.html %}
 
-{% include song_sentiment.js %}
+<script src="song_sentiment.js" type="text/javascript"></script>
