@@ -29,4 +29,6 @@
 
 {% include graph_output.html %}
 
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
 <script src="https://raw.githubusercontent.com/nadjariis/SocialGraphs2020/gh-pages/song_sentiment.js"></script>
