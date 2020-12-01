@@ -14,8 +14,6 @@
 
 ## Finding communities within network
 
-<img src="{{site.url}}/images/CommunitySizes.png" style="display: block; margin: auto;" />
-
 - Show the network, colored by communities.
 
 - List the artists in the communities
@@ -30,3 +28,5 @@
 - Wordclouds based on songs for some the five biggest nodes in the artist network
 
 {% include graph_output.html %}
+
+{% include song_sentiment.js %}
