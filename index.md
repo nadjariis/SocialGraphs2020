@@ -4,7 +4,7 @@ Have you ever wondered how the artists of two different music genres might be co
 # Selecting genres and retrieving data
 - network overview?
 
-## Delving into the network and calculating some basic statistics
+# Delving into the network and calculating some basic statistics
 
 - Insert degree distributions
 
@@ -12,11 +12,11 @@ Have you ever wondered how the artists of two different music genres might be co
 
 {% include graph_output.html %}
 
-## Defining genres with words
+# Defining genres with words
 
 - Insert wordclouds for the two genres.
 
-## Finding communities within network
+# Finding communities within network
 
 - Show the network, colored by communities.
 
@@ -26,7 +26,7 @@ Have you ever wondered how the artists of two different music genres might be co
 
 - Wordcloud + sentiment analysis
 
-## Songs and sentiment over time
+# Songs and sentiment over time
 
 - Sentimentanalysis over time
 
