@@ -29,4 +29,4 @@
 
 {% include graph_output.html %}
 
-<script src="song_sentiment.js" type="text/javascript"></script>
+<script src="https://raw.githubusercontent.com/nadjariis/SocialGraphs2020/gh-pages/song_sentiment.js"</script>
