@@ -29,7 +29,7 @@ Have you ever wondered how the artists of two different music genres might be co
 - List the artists in the communities
 
 **Community 1:**
-<font size="0.5">
+
 | Community 1  | Community 2 | Community 3 | 
 | ------------- | ------------- | ------------- | 
 | Madonna (Dance Pop)  | Kendrick Lamar (West Coast) | Paris (West Coast) | 
@@ -43,6 +43,7 @@ Have you ever wondered how the artists of two different music genres might be co
 | Katy Perry (Dance Pop) | YG (West Coast) | Hed PE (West Coast) | 
 | Justin Timberlake (Dance Pop) | Schoolboy Q (West Coast) | Sen Dog (West Coast) | 
 
+
 | Community 4 | Community 5 | Community 6 |
 | ------------- | ------------- | ------------- | 
 | Planet Asia (West Coast) | Exposé (Dance Pop) | Snoop Dogg (West Coast) |
@@ -55,7 +56,7 @@ Have you ever wondered how the artists of two different music genres might be co
 | Pigeon John (West Coast) | Lisa Lisa and Cult Jam (Dance Pop) | N.W.A (West Coast) |
 | Domino (West Coast) | | DJ Quik (West Coast) |
 | The Grouch (West Coast) | | Kam (West Coast) |
-</font>
+
 
 <img src="images/CommunityGraph.png" alt="hi" class="inline"/>
 
