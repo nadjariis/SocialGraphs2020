@@ -30,60 +30,19 @@ Have you ever wondered how the artists of two different music genres might be co
 
 **Community 1:**
 
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| Community 1  | Community 2 | Community 3 | Community 4 |
+| ------------- | ------------- | ------------- | ------------- |
+| Madonna (Dance Pop)  | Kendrick Lamar (West Coast) | Paris (West Coast) | Planet Asia (West Coast) |
+| Britney Spears (Dance Pop)  | Chris Brown (Dance Pop) | Subnoize Souljaz (West Coast) | Dilated Peoples (West Coast) |
+| Rihanna (Dance Pop) | Wiz Khalifa (West Coast) | Kottonmouth Kings (West Coast) | Murs (West Coast) |
+| Michael Jackson (Dance Pop) | Dom Kennedy (West Coast) | Havoc (West Coast) | Gorillaz (Dance Pop) |
+| Janet Jackson (Dance Pop) | Tyga (West Coast) | Young Murder Squad (West Coast) | Evidence (West Coast) |
+| Lady Gaga (Dance Pop) | Problem (West Coast) | Kingspade (West Coast) | Del the Funky Homosapien (West Coast) |
+| Nicki Minaj (Dance Pop) | Alchemist (West Coast) | Potluck (West Coast) | People Under The Stairs (West Coast) |
+| Mariah Carey (Dance Pop) | Ty Dolla $ign (West Coast) | Delinquent Habits (West Coast) | Pigeon John (West Coast) |
+| Katy Perry (Dance Pop) | YG (West Coast) | Hed PE (West Coast) | The Grouch (West Coast) |
+| Justin Timberlake (Dance Pop) | Schoolboy Q (West Coast) | Sen Dog (West Coast) | Domino (West Coast) |
 
-- Madonna (Dance Pop)
-- Britney Spears (Dance Pop)
-- Rihanna (Dance Pop)
-- Michael Jackson (Dance Pop)
-- Janet Jackson (Dance Pop)
-- Lady Gaga (Dance Pop)
-- Nicki Minaj (Dance Pop)
-- Mariah Carey (Dance Pop)
-- Katy Perry (Dance Pop)
-- Justin Timberlake (Dance Pop)
-
-**Community 2:**
-- Kendrick Lamar (West Coast)
-- Chris Brown (Dance Pop)
-- Wiz Khalifa (West Coast)
-- Dom Kennedy (West Coast)
-- Tyga (West Coast)
-- Problem (West Coast)
-- Alchemist (West Coast)
-- Ty Dolla $ign (West Coast)
-- YG (West Coast)
-- Schoolboy Q (West Coast)
-
-Community 3:
-
-Paris (West Coast)
-Subnoize Souljaz (West Coast)
-Kottonmouth Kings (West Coast)
-Havoc (West Coast)
-Young Murder Squad (West Coast)
-Kingspade (West Coast)
-Potluck (West Coast)
-Delinquent Habits (West Coast)
-Hed PE (West Coast)
-Sen Dog (West Coast)
-
-
-Community 4:
-
-Planet Asia (West Coast)
-Dilated Peoples (West Coast)
-Murs (West Coast)
-Gorillaz (Dance Pop)
-Evidence (West Coast)
-Del the Funky Homosapien (West Coast)
-People Under The Stairs (West Coast)
-Pigeon John (West Coast)
-The Grouch (West Coast)
-Domino (West Coast)
 
 Community 5:
 
