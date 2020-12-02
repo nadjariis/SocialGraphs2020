@@ -1,5 +1,8 @@
 <style>
 td {
+  font-size: 11px
+}
+th {
   font-size: 13px
 }
 </style>
@@ -34,32 +37,18 @@ Have you ever wondered how the artists of two different music genres might be co
 
 - List the artists in the communities
 
-| Community 1  | Community 2 | Community 3 | 
-| ------------- | ------------- | ------------- | 
-| Madonna (Dance Pop)  | Kendrick Lamar (West Coast) | Paris (West Coast) | 
-| Britney Spears (Dance Pop)  | Chris Brown (Dance Pop) | Subnoize Souljaz (West Coast) | 
-| Rihanna (Dance Pop) | Wiz Khalifa (West Coast) | Kottonmouth Kings (West Coast) | 
-| Michael Jackson (Dance Pop) | Dom Kennedy (West Coast) | Havoc (West Coast) | 
-| Janet Jackson (Dance Pop) | Tyga (West Coast) | Young Murder Squad (West Coast) | 
-| Lady Gaga (Dance Pop) | Problem (West Coast) | Kingspade (West Coast) | 
-| Nicki Minaj (Dance Pop) | Alchemist (West Coast) | Potluck (West Coast) | 
-| Mariah Carey (Dance Pop) | Ty Dolla $ign (West Coast) | Delinquent Habits (West Coast) | 
-| Katy Perry (Dance Pop) | YG (West Coast) | Hed PE (West Coast) | 
-| Justin Timberlake (Dance Pop) | Schoolboy Q (West Coast) | Sen Dog (West Coast) | 
-
-
-| Community 4 | Community 5 | Community 6 |
-| ------------- | ------------- | ------------- | 
-| Planet Asia (West Coast) | Exposé (Dance Pop) | Snoop Dogg (West Coast) |
-| Dilated Peoples (West Coast) | Xuxa (Dance Pop) | Dr. Dre (West Coast) |
-| Murs (West Coast) | Company B (Dance Pop) | Ice Cube (West Coast) |
-| Gorillaz (Dance Pop) | Will to Power (Dance Pop) | The Game (West Coast) |
-| Evidence (West Coast) | Mars (West Coast) | Tha Dogg Pound (West Coast) |
-| Del the Funky Homosapien (West Coast) | The Cover Girls (Dance Pop) | Kurupt (West Coast) |
-| People Under The Stairs (West Coast) | t.A.T.u. (Dance Pop) | Eazy-E (West Coast) |
-| Pigeon John (West Coast) | Lisa Lisa and Cult Jam (Dance Pop) | N.W.A (West Coast) |
-| Domino (West Coast) | | DJ Quik (West Coast) |
-| The Grouch (West Coast) | | Kam (West Coast) |
+| Community 1  | Community 2 | Community 3 | Community 4 | Community 5 | Community 6 |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
+| Madonna (Dance Pop)  | Kendrick Lamar (West Coast) | Paris (West Coast) | Planet Asia (West Coast) | Exposé (Dance Pop) | Snoop Dogg (West Coast) |
+| Britney Spears (Dance Pop)  | Chris Brown (Dance Pop) | Subnoize Souljaz (West Coast) | Dilated Peoples (West Coast) | Xuxa (Dance Pop) | Dr. Dre (West Coast) |
+| Rihanna (Dance Pop) | Wiz Khalifa (West Coast) | Kottonmouth Kings (West Coast) | Murs (West Coast) | Company B (Dance Pop) | Ice Cube (West Coast) |
+| Michael Jackson (Dance Pop) | Dom Kennedy (West Coast) | Havoc (West Coast) | Gorillaz (Dance Pop) | Will to Power (Dance Pop) | The Game (West Coast) |
+| Janet Jackson (Dance Pop) | Tyga (West Coast) | Young Murder Squad (West Coast) | Evidence (West Coast) | Mars (West Coast) | Tha Dogg Pound (West Coast) |
+| Lady Gaga (Dance Pop) | Problem (West Coast) | Kingspade (West Coast) | Del the Funky Homosapien (West Coast) | The Cover Girls (Dance Pop) | Kurupt (West Coast) |
+| Nicki Minaj (Dance Pop) | Alchemist (West Coast) | Potluck (West Coast) | People Under The Stairs (West Coast) | t.A.T.u. (Dance Pop) | Eazy-E (West Coast) |
+| Mariah Carey (Dance Pop) | Ty Dolla $ign (West Coast) | Delinquent Habits (West Coast) | Pigeon John (West Coast) | Lisa Lisa and Cult Jam (Dance Pop) | N.W.A (West Coast) |
+| Katy Perry (Dance Pop) | YG (West Coast) | Hed PE (West Coast) |  Domino (West Coast) | ? | DJ Quik (West Coast) |
+| Justin Timberlake (Dance Pop) | Schoolboy Q (West Coast) | Sen Dog (West Coast) | The Grouch (West Coast) | ? | Kam (West Coast) |
 
 
 <img src="images/CommunityGraph.png" alt="hi" class="inline"/>
