@@ -99,6 +99,7 @@ function drawChart() {
     	console.log("3");
         window.resize = resizeChart;
     }
+    setTimeout(resizeChart, 1000); 
 
 
 }
