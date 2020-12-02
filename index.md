@@ -100,6 +100,8 @@ N.W.A (West Coast)
 DJ Quik (West Coast)
 Kam (West Coast)
 
+<img src="images/CommunityGraph.png" alt="hi" class="inline"/>
+
 - Show a distribution plot of the number of nodes in each community
 
 - Wordcloud + sentiment analysis
