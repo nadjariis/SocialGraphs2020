@@ -39,7 +39,7 @@ Have you ever wondered how the artists of two different music genres might be co
 
 | Community 1  | Community 2 | Community 3 | Community 4 | Community 5 | Community 6 |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | 
-| Madonna (Dance Pop)  | Kendrick Lamar (West Coast) | Paris (West Coast) | Planet Asia (West Coast) | Exposé (Dance Pop) | Snoop Dogg (West Coast) |
+| Madonna \n (Dance Pop)  | Kendrick Lamar (West Coast) | Paris (West Coast) | Planet Asia (West Coast) | Exposé (Dance Pop) | Snoop Dogg (West Coast) |
 | Britney Spears (Dance Pop)  | Chris Brown (Dance Pop) | Subnoize Souljaz (West Coast) | Dilated Peoples (West Coast) | Xuxa (Dance Pop) | Dr. Dre (West Coast) |
 | Rihanna (Dance Pop) | Wiz Khalifa (West Coast) | Kottonmouth Kings (West Coast) | Murs (West Coast) | Company B (Dance Pop) | Ice Cube (West Coast) |
 | Michael Jackson (Dance Pop) | Dom Kennedy (West Coast) | Havoc (West Coast) | Gorillaz (Dance Pop) | Will to Power (Dance Pop) | The Game (West Coast) |
