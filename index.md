@@ -22,29 +22,30 @@ Have you ever wondered how the artists of two different music genres might be co
 
 - List the artists in the communities
 
-Community 1:
-Madonna (Dance Pop)
-Britney Spears (Dance Pop)
-Rihanna (Dance Pop)
-Michael Jackson (Dance Pop)
-Janet Jackson (Dance Pop)
-Lady Gaga (Dance Pop)
-Nicki Minaj (Dance Pop)
-Mariah Carey (Dance Pop)
-Katy Perry (Dance Pop)
-Justin Timberlake (Dance Pop)
+**Community 1:**
 
-Community 2:
-Kendrick Lamar (West Coast)
-Chris Brown (Dance Pop)
-Wiz Khalifa (West Coast)
-Dom Kennedy (West Coast)
-Tyga (West Coast)
-Problem (West Coast)
-Alchemist (West Coast)
-Ty Dolla $ign (West Coast)
-YG (West Coast)
-Schoolboy Q (West Coast)
+- Madonna (Dance Pop)
+- Britney Spears (Dance Pop)
+- Rihanna (Dance Pop)
+- Michael Jackson (Dance Pop)
+- Janet Jackson (Dance Pop)
+- Lady Gaga (Dance Pop)
+- Nicki Minaj (Dance Pop)
+- Mariah Carey (Dance Pop)
+- Katy Perry (Dance Pop)
+- Justin Timberlake (Dance Pop)
+
+**Community 2:**
+- Kendrick Lamar (West Coast)
+- Chris Brown (Dance Pop)
+- Wiz Khalifa (West Coast)
+- Dom Kennedy (West Coast)
+- Tyga (West Coast)
+- Problem (West Coast)
+- Alchemist (West Coast)
+- Ty Dolla $ign (West Coast)
+- YG (West Coast)
+- Schoolboy Q (West Coast)
 
 Community 3:
 
