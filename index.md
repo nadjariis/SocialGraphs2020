@@ -16,6 +16,10 @@ Have you ever wondered how the artists of two different music genres might be co
 
 # Delving into the network and calculating some basic statistics
 
+The numer of nodes in the network is 651, before we remove the isolated nodes. When these nodes are removed, we end up with 595 nodes and 4247 edges. 
+
+The network do have nodes with 0 outdegree or 0 indegree, but the maximum outdegree in the network is 108, while the maximum in-degree is 40.
+
 - Insert degree distributions
 
 - Insert network plot
