@@ -29,7 +29,7 @@ Have you ever wondered how the artists of two different music genres might be co
 - List the artists in the communities
 
 **Community 1:**
-
+<font size="+1">
 | Community 1  | Community 2 | Community 3 | 
 | ------------- | ------------- | ------------- | 
 | Madonna (Dance Pop)  | Kendrick Lamar (West Coast) | Paris (West Coast) | 
@@ -55,6 +55,7 @@ Have you ever wondered how the artists of two different music genres might be co
 | Pigeon John (West Coast) | Lisa Lisa and Cult Jam (Dance Pop) | N.W.A (West Coast) |
 | Domino (West Coast) | | DJ Quik (West Coast) |
 | The Grouch (West Coast) | | Kam (West Coast) |
+</font>
 
 <img src="images/CommunityGraph.png" alt="hi" class="inline"/>
 
