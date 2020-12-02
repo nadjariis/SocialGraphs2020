@@ -22,6 +22,81 @@ Have you ever wondered how the artists of two different music genres might be co
 
 - List the artists in the communities
 
+Community 1:
+Madonna (Dance Pop)
+Britney Spears (Dance Pop)
+Rihanna (Dance Pop)
+Michael Jackson (Dance Pop)
+Janet Jackson (Dance Pop)
+Lady Gaga (Dance Pop)
+Nicki Minaj (Dance Pop)
+Mariah Carey (Dance Pop)
+Katy Perry (Dance Pop)
+Justin Timberlake (Dance Pop)
+
+Community 2:
+Kendrick Lamar (West Coast)
+Chris Brown (Dance Pop)
+Wiz Khalifa (West Coast)
+Dom Kennedy (West Coast)
+Tyga (West Coast)
+Problem (West Coast)
+Alchemist (West Coast)
+Ty Dolla $ign (West Coast)
+YG (West Coast)
+Schoolboy Q (West Coast)
+
+Community 3:
+
+Paris (West Coast)
+Subnoize Souljaz (West Coast)
+Kottonmouth Kings (West Coast)
+Havoc (West Coast)
+Young Murder Squad (West Coast)
+Kingspade (West Coast)
+Potluck (West Coast)
+Delinquent Habits (West Coast)
+Hed PE (West Coast)
+Sen Dog (West Coast)
+
+
+Community 4:
+
+Planet Asia (West Coast)
+Dilated Peoples (West Coast)
+Murs (West Coast)
+Gorillaz (Dance Pop)
+Evidence (West Coast)
+Del the Funky Homosapien (West Coast)
+People Under The Stairs (West Coast)
+Pigeon John (West Coast)
+The Grouch (West Coast)
+Domino (West Coast)
+
+Community 5:
+
+Exposé (Dance Pop)
+Xuxa (Dance Pop)
+Company B (Dance Pop)
+Will to Power (Dance Pop)
+Mars (West Coast)
+The Cover Girls (Dance Pop)
+t.A.T.u. (Dance Pop)
+Lisa Lisa and Cult Jam (Dance Pop)
+
+Community 6:
+
+Snoop Dogg (West Coast)
+Dr. Dre (West Coast)
+Ice Cube (West Coast)
+The Game (West Coast)
+Tha Dogg Pound (West Coast)
+Kurupt (West Coast)
+Eazy-E (West Coast)
+N.W.A (West Coast)
+DJ Quik (West Coast)
+Kam (West Coast)
+
 - Show a distribution plot of the number of nodes in each community
 
 - Wordcloud + sentiment analysis
