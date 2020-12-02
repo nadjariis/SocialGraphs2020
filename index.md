@@ -9,8 +9,9 @@ Have you ever wondered how the artists of two different music genres might be co
 - Insert degree distributions
 
 - Insert network plot
-
+<center>
 {% include graph_output.html %}
+</center>
 
 # Defining genres with words
 
