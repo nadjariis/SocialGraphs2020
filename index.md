@@ -18,6 +18,10 @@ Have you ever wondered how the artists of two different music genres might be co
 
 - Insert wordclouds for the two genres.
 
+<img src="images/DancePop.png" alt="hi" class="inline"/>
+
+<img src="images/WestCoast.png" alt="hi" class="inline"/>
+
 # Finding communities within network
 
 - Show the network, colored by communities.
