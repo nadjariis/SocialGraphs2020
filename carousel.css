@@ -37,7 +37,7 @@ html {
 /* Center text */
 .text-block {
   position: absolute;
-  opacity: 0.5;
+  opacity: 0.3;
   background-color: black;
   color: white;
   padding-left: 20px;
