@@ -1,6 +1,6 @@
 <style>
 td {
-  font-size: 5px
+  font-size: 13px
 }
 </style>
 
