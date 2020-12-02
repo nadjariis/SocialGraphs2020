@@ -34,8 +34,6 @@ Have you ever wondered how the artists of two different music genres might be co
 
 - List the artists in the communities
 
-**Community 1:**
-
 | Community 1  | Community 2 | Community 3 | 
 | ------------- | ------------- | ------------- | 
 | Madonna (Dance Pop)  | Kendrick Lamar (West Coast) | Paris (West Coast) | 
