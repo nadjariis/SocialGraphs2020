@@ -30,6 +30,11 @@ Have you ever wondered how the artists of two different music genres might be co
 
 **Community 1:**
 
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
 - Madonna (Dance Pop)
 - Britney Spears (Dance Pop)
 - Rihanna (Dance Pop)
