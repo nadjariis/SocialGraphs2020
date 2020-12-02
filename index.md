@@ -3,6 +3,7 @@ Have you ever wondered how the artists of two different music genres might be co
 
 # Selecting genres and retrieving data
 - network overview?
+{% include BasicGraph.png %}
 
 # Delving into the network and calculating some basic statistics
 
