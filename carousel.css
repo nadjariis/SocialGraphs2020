@@ -12,11 +12,6 @@ html {
     scroll-behavior: smooth;
 }
 
-.center-image {
-    display: table;
-    margin: 0 auto;
-}
-
 .anchor {
     display: block;
     position: relative;
