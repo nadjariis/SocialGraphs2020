@@ -18,6 +18,11 @@ html {
     margin-right: auto;
 }
 
+.ob {
+  display: block;
+  margin: 0 auto;
+}
+
 .anchor {
     display: block;
     position: relative;
