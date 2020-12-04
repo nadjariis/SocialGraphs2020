@@ -176,7 +176,14 @@ th {
             <div class="row featurette">
                 <div>
                     <h2 class="featurette-heading">Delving into the network <br> <span class="text-muted">and calculating some basic statistics</span></h2>
-                    <p class="lead">The numer of nodes in the network is 651, before we remove the isolated nodes. When these nodes are removed, we end up with 595 nodes and 4247 edges. The network do have nodes with 0 outdegree or 0 indegree, but the maximum outdegree in the network is 108, while the maximum in-degree is 40.
+                    <p class="lead">
+                      After removing isolated nodes (nodes with no connections) from our artist network, we are left with 595 nodes and 4247 edges that connect them. To get a better understanding
+                      of the network, we can start by examining the number of edges that go into and out of each node. This is also called the degree of a node. In this case, the average degree is 
+                      11.35, meaning that each node is on average connected to 11.35 other nodes. Let's dig a little deeper and make a degree distribution plot. 
+                        <img src="images/DegreeDistribution.png" width="70%">
+                      We observe that the degree distribution appears to follow a power law (approximately, at least) with many nodes having small degree and a few nodes having very large degree. 
+                      This indicates that we are dealing with a scale-free network, which means that we expect the emergence of hubs in the network. A hub is simply a node with a number of connections that greatly exceeds the average [[2]](https://en.wikipedia.org/wiki/Hub_(network_science)). 
+                      In this case, some hubs could be e.g. Snoop Dogg (degree 110) and Madonna (degree 67). 
                     </p>
                 </div>
                 <object data="_includes/graph_output.html" style="width:100%;height:1080px"></object>
