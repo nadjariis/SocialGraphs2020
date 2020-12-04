@@ -180,9 +180,11 @@ th {
                       After removing isolated nodes (nodes with no connections) from our artist network, we are left with 595 nodes and 4247 edges that connect them. To get a better understanding
                       of the network, we can start by examining the number of edges that go into and out of each node. This is also called the degree of a node. In this case, the average degree is 
                       11.35, meaning that each node is on average connected to 11.35 other nodes. Let's dig a little deeper and make a degree distribution plot. 
-                      <div>
-                        <img src="images/DegreeDistribution.png" width="70%" class="center-image">
-                      </div>
+                    </p>    
+                    <div>
+                      <img src="images/DegreeDistribution.png" width="70%" class="center-image">
+                    </div>
+                    <p class="lead">
                       We observe that the degree distribution appears to follow a power law (approximately, at least) with many nodes having small degree and a few nodes having very large degree. 
                       This indicates that we are dealing with a scale-free network, which means that we expect the emergence of hubs in the network. A hub is simply a node with a number of connections that greatly exceeds the average <a href="https://en.wikipedia.org/wiki/Hub_(network_science)">[2]</a>. 
                       In this case, some hubs could be e.g. Snoop Dogg (degree 110) and Madonna (degree 67). 
@@ -194,7 +196,7 @@ th {
                     <div>
                       <object class="ob" data="_includes/graph_output.html" width="100%" height="1000px"></object>
                     </div>
-                    <p>
+                    <p class="lead">
                       The purple nodes are Dance Pop artists, while the blue nodes are West Coast Hip Hop artists. The single green node
                       belongs to both genres. The node size depends on the degree of the node, which explains why e.g. the Snoop Dogg node is so large. Please notice
                       that the network is interactive, which allows for both zooming and dragging. Furthermore, hovering over a node lists the
