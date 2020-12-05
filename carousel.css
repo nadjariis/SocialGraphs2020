@@ -30,17 +30,6 @@ html {
     visibility: hidden;
 }
 
-.crop_word_cloud {
-    width: 100%;
-    overflow: hidden;
-}
-
-.crop_word_cloud img {
-    width: 615px;
-    height: 1124px;
-    margin: -735px 0 0 -185px;
-}
-
 .google-visualization-tooltip {
     white-space: nowrap;
 }
