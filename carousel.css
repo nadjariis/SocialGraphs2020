@@ -35,7 +35,7 @@ html {
     overflow: hidden;
 }
 
-img.crop_word_cloud {
+.crop_word_cloud img {
     width: 615px;
     height: 1124px;
     margin: -735px 0 0 -185px;
