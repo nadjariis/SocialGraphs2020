@@ -18,6 +18,11 @@ html {
     margin-right: auto;
 }
 
+.center-table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .ob {
   display: block;
   margin: 0 auto;
