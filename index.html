@@ -186,7 +186,8 @@ th {
                       <br>
                       Now that we know a little more about the nodes in the network, let's take a closer look at a section of the network. Knowing the average degree to be 11.35,
                       we choose to look at only the nodes with degree larger than 15. Below is a visualization containing only these nodes
-                      and their connections.
+                      and their connections. Please note that since all nodes with degree less than 15 have been removed, some nodes appear to have quite few connections in this network, 
+                      even though they have at least 15 connections in the full network.
                     </p>
                     <div>
                       <object class="ob" data="_includes/graph_output.html" width="100%" height="825px"></object>
@@ -203,7 +204,13 @@ th {
             <div class="row featurette">
                 <div>
                     <h2 class="featurette-heading">Which words define the genres? <span class="text-muted">Let's make some wordclouds.</span></h2>
-                    <p class="lead"> Wordclouds of the two genres
+                    <p class="lead"> 
+                      Now that we've seen that the genres can be clearly separated into two large clusters, it would be interesting to
+                      investigate whether there are some words that are typical for the genres. Since we have a bunch of text from the
+                      Wikipedia pages, we can easily make a corpus for each genre, containing all the text from the artists belonging to the 
+                      given genre. One way to investigate this would be to make wordclouds, which are simply visualizations consisting of
+                      free-floating words, where the size of the words indicate their relevance. The relevance of each can be determined 
+                      by the use of TF-IDF, which is described in-depth in the Explainer Notebook.
                     </p>
                 </div>
                 <div class="col-md-6">
