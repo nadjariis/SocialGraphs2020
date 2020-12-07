@@ -203,6 +203,130 @@ th {
                     </p>
                 </div>
             </div>
+          
+            <hr class="featurette-divider" id="id_communities">
+            <div class="row featurette">
+                <div class="col-md-5">
+                    <h2 class="featurette-heading">Finding communities <br> <span class="text-muted">within the network.</span></h2>
+                    <p class="lead">
+                      A network is said to have community structure if the nodes of the network can be grouped into sets of nodes, such that each set of nodes is densely connected internally <a href="https://en.wikipedia.org/wiki/Community_structure">[1]</a>. 
+                      With the use of specific algorithms we were able to find around 13 communities in our artist network. The five largest communities 
+                      consist of more than 50 artists, while the rest of the communities consist of less than 17 artists. To get a sense of which artists are placed in which communities, we 
+                      have listed the ten artists with largest degree, from each of the five largest communities. 
+                      <br>
+                      Even without too much background knowledge on the two music genres, it is clear to see that the communities make somewhat sense. Community 1 contains a lot of the most notable
+                      Dance Pop artists, while community 2 and 3 contain several notable West Coast Hip Hop artists. Aside from several rappers/hip-hop groups, Community 5 also contains the Dance Pop
+                      band Gorillaz. This might seem odd at first, but Gorillaz actually collaborated with Del the Funky Homosapien, and thus both of those Wikipedia pages link to each other, which
+                      might explain why Gorillaz was placed in community 5. 
+                    </p>
+                </div>
+                <div class="col-md-7">
+                    <table style="width:100%">
+                      <tr>
+                        <th>Community 1</th>
+                        <th>Community 2</th> 
+                        <th>Community 3</th>
+                        <th>Community 4</th>  
+                        <th>Community 5</th>  
+                      </tr>
+                      <tr>
+                        <td>Madonna (Dance Pop)</td>
+                        <td>Snoop Dogg (West Coast)</td>
+                        <td>Kendrick Lamar (West Coast)</td>
+                        <td>Paris (West Coast)</td>
+                        <td>Planet Asia (West Coast)</td>
+                      </tr>
+                      <tr>
+                        <td>Britney Spears (Dance Pop)</td>
+                        <td>Dr. Dre (West Coast)</td>
+                        <td>Chris Brown (Dance Pop)</td>
+                        <td>Subnoize Souljaz (West Coast)</td>
+                        <td>Dilated Peoples (West Coast)</td>
+                      </tr>
+                      <tr>
+                        <td>Rihanna (Dance Pop)</td>
+                        <td>Ice Cube (West Coast)</td>
+                        <td>Wiz Khalifa (West Coast)</td>
+                        <td>Kottonmouth Kings (West Coast)</td>
+                        <td>Murs (West Coast)</td>
+                      </tr>
+                      <tr>
+                        <td>Michael Jackson (Dance Pop)</td>
+                        <td>The Game (West Coast)</td>
+                        <td>Dom Kennedy (West Coast)</td>
+                        <td>Havoc (West Coast)</td>
+                        <td>Gorillaz (Dance Pop)</td>
+                      </tr>
+                      <tr>
+                          <td>Janet Jackson (Dance Pop)</td>
+                          <td>Tha Dogg Pound (West Coast)</td>
+                          <td>Tyga (West Coast)</td>
+                          <td>Young Murder Squad (West Coast)</td>
+                          <td>Evidence (West Coast)</td>
+                      </tr>
+                      <tr>
+                          <td>Lady Gaga (Dance Pop)</td>
+                          <td>Kurupt (West Coast)</td>
+                          <td>Problem (West Coast)</td>
+                          <td>Kingspade (West Coast)</td>
+                          <td>Del the Funky Homosapien (West Coast)</td>
+                      </tr>
+                      <tr>
+                          <td>Nicki Minaj (Dance Pop)</td>
+                          <td>Eazy-E (West Coast)</td>
+                          <td>Alchemist (West Coast)</td>
+                          <td>Potluck (West Coast)</td>
+                          <td>People Under The Stairs (West Coast)</td>
+                      </tr>
+                      <tr>
+                          <td>Mariah Carey (Dance Pop)</td>
+                          <td>N.W.A (West Coast)</td>
+                          <td>Ty Dolla $ign (West Coast)</td>
+                          <td>Delinquent Habits (West Coast)</td>
+                          <td>Pigeon John (West Coast)</td>
+                      </tr>
+                      <tr>
+                          <td>Katy Perry (Dance Pop)</td>
+                          <td>DJ Quik (West Coast)</td>
+                          <td>YG (West Coast)</td>
+                          <td>Hed PE (West Coast)</td>
+                          <td>Domino (West Coast)</td>
+                      </tr>
+                      <tr>
+                          <td>Justin Timberlake (Dance Pop)</td>
+                          <td>Kam (West Coast)</td>
+                          <td>Schoolboy Q (West Coast)</td>
+                          <td>Sen Dog (West Coast)</td>
+                          <td>The Grouch (West Coast)</td>
+                      </tr>
+                    </table></p>
+                    <img src="images/CommunityGraph.png" width="100%" class="right-image">
+                </div>
+                <div class="col-md-12">
+                    <p class="lead">
+                      To get a better understanding of the communities, we have visualized them by drawing a network similar to the one we drew in the beginning, only this time with each node being
+                      colored based on the community it belongs to. As seen from the visualization, there are five clearly distinguishable communities. This corresponds nicely with the fact that 
+                      five of the communities we found are significantly larger than the rest. Most of the Dance Pop artists are placed in a single, large community, while the West Coast Hip Hop artists
+                      are divided into four communities. One of these four communities appear to contain a few Dance Pop artists as well - presumabely Gorillaz, for example.
+                    </p>
+                </div>
+                <div class="col-md-4">
+                  <img src="images/Community 1.png" style="width: 100%"> 
+                </div>
+                <div class="col-md-4">
+                  <img src="images/Community 2.png" style="width: 100%">
+                </div>
+                <div class="col-md-4">
+                  <img src="images/Community 3.png" style="width: 100%">
+                </div>
+                <div class="col-md-6">
+                  <img src="images/Community 4.png" style="width: 100%">
+                </div>
+                <div class="col-md-6">
+                  <img src="images/Community 5.png" style="width: 100%">
+                </div>
+            </div>
+      
             <hr class="featurette-divider" id="id_words">
             <div class="row featurette">
                 <div>
