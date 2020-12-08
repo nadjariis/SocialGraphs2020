@@ -396,9 +396,9 @@ th {
                       analysis of the artists wikipages. Sentiment analysis refers to a text analysis to
                       systematically identify and study subjective information in a text. We have used the 
                       LabMT wordlist from <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0026752">[2]</a>, to create our sentiment analysis. This wordlist contains information 
-                      about how happy each word on the list is, and based on this list we can look into how happy 
-                      or sad each artists wikipage is. Wikipages is supposed to be neutral, so we will expect that the 
-                      sentiment of the wikipages will be almost neutral around 5.
+                      about how "happy" each word on the list is, and based on this list we can look into how happy 
+                      or sad each artist's wikipage is. Wikipages are supposed to be neutral, so we will expect that the 
+                      sentiment of the wikipages will be around 5, which is a neutral score.
                     </p>
                 </div>
                     <style type="text/css"><style type="text/css">
@@ -500,30 +500,30 @@ th {
                    whether, based on the sentiment, one can predict which genre each artist belongs to. After
                    calculating the sentiment of each artists wikipage, we have indentified the five happiest 
                    pages and the five saddest pages. The artists the pages belong to are listed in the table 
-                   below with their corresponding sentiment value.  
+                   to the right with their corresponding sentiment value.  
                    
                   The five happiest artists are Dance Pop artists, while the five saddest artists are West 
-                  Coast artists. It could look like there was a pattern where artists from Dance Pop 
+                  Coast artists. It appears as though there is a pattern where artists from Dance Pop 
                   have a higher sentiment score than artists from West Coast. When calculating the average
                   sentiment score for each of the two genres, we get that the average sentiment score 
                   for a Dance Pop artist is 5.508, while the average for a West Coast artist is 5.464. 
-                  In respect to that the minimum sentiment value for the pages is 5.133 and the maximum sentiment 
-                  value is 5.920 the difference between the genres is not that large, but still to see.
+                  In respect to that, the minimum sentiment value for the pages is 5.133 and the maximum sentiment 
+                  value is 5.920. The difference between the genres is not that large, but still distinct.
                   A distribution plot for the sentiments of the pages is shown below.
                  </p>
                  <img src="images/SentimentArtists.png" width="100%" class="center-image">
                  <p class="lead"> 
                       From the distribution plot it appears that the sentiment scores for the artists wikipages
                       follow a left skewed normal distribution, with mean 5.487 and standard deviation 0.081. The
-                      wikipages do not differ that much in sentiment score. This are also expected because we 
-                      assumes that wikipages are written in somehow a nautral language.
+                      wikipages do not differ that much in sentiment score, but this is to be expected because we 
+                      assume that wikipages are written in a somewhat neutral language.
                  </p>
                  <p class="lead">
                       We have looked at the sentiment score for the five most connected artists from each of the two 
-                      genres. These are listed in the table to the right. From this table we can see that Madonna,
+                      genres. These are listed in the table above. From this table we can see that Madonna,
                       Janet Jackson, and Rihanna from the dance pop genre have the highest sentiment scores, 
                       while The Game, Snoop Dogg and Dr. Dre from the West Coast genre have the lowest sentiment scores.
-                      However, the E-40 is an exception because he have a sentiment score which are similar to 
+                      However, E-40 is an exception because he has a sentiment score which is similar to 
                       the sentiment scores of the Dance Pop artists. 
                     </p>
                </div>
