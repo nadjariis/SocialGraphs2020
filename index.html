@@ -606,35 +606,38 @@ th {
             <div class="row featurette">
                 <div class="col-md-12">
                     <h2 class="featurette-heading"> Do song lyrics change over time? <span class="text-muted"> A deeper look into sentiment changes in lyrics.</span></h2>
-                    <p class="lead"> The trends in the music industry changes trough time. Even genres which seems so different could have some trends in commen. 
-                    This were done to see if the two genre over time becomes more similar or is drifting apart.
+                    <p class="lead"> 
+                      The trends in the music industry change through time, and even genres that appear quite different could have some trends in common. 
+                      This were done to see if the two genre over time becomes more similar or is drifting apart.
 
-                    So by analyzing the sentiment over time and taking a closer look at at the most defining words in the lyrics, it might 
-                    indicate how the connection, collaberation and inspiration has evolved between the two genre. Our goal is not to predict how 
-                    these two genres evolves, but to get a deeper understanding of connections already formed by two very different genres.     
+                      So by analyzing the sentiment over time and taking a closer look at the most defining words in the lyrics, it might give an
+                      indication of how the connection, collaboration and inspiration has evolved between the two genres. Our goal is not to predict how 
+                      these two genres evolves, but to get a deeper understanding of connections already formed by two very different genres.     
 
-                    Hopefully if the two genres has some of the same spikes or pits, we could link those to real life events. 
-                    For each genre we take the songs which have an release date on Genius, group them by year and then take the average 
-                    sentiment of songs in each group.</p>
+                      Possibly, if the sentiment of lyrics from the two genres have some of the same spikes or pits, we could link those to real life events. 
+                      For each genre we take the songs that have a release date on Genius, group them by year and then compute the average 
+                      sentiment of songs in each year.
+                    </p>
                 </div>
             </div>
       
             <div class="row featurette">
                 <div class="col-md-12">
                     <div id="song_sentiment_chart_div" style="display: table; margin: 0 auto; width: 90%; height: 500px;"></div>
-                   <p class="lead"> The line plot gives some insight into how each genre evolves by showing the changes in sentiment through time. 
-                    The average sentiment for all songs in the Dance Pop genre is 5.57 and in the West Coast genre is 5.32.  
-                    The average sentiment is based on all songs booth those with a date and those with a unidentified date. The line plot
-                    is only based upon those song, were there were given a specific release date. So some uncertainty is coused by the lack of 
-                    dates on all songs. The line plot still gives some valuable insight into the change in sentiment 
-                    for each genre and a simple way to compare the two. 
+                   <p class="lead"> 
+                      The line plot gives some insight into how each genre evolves by showing the changes in (lyric) sentiment through time. 
+                      The average sentiment for all songs in the Dance Pop genre is 5.57, while it is 5.32 for the West Coast genre.  
+                      The average sentiment is based on all songs, both those with a date and those with a unidentified date. The line plot
+                      is only based on the songs, for which there was given a specific release date. So some uncertainty is caused by the lack of 
+                      dates on all songs. However, the line plot still gives some valuable insight into the change in sentiment 
+                      for each genre and provides a simple way to compare the two genres. 
 
-                    We assumed all songs produces by an artist to be of one genre, then even though the Dance Pop genre started in 
-                    the early 1980, we see some songs has been released before that. On the contrary the origins of West Coast 
-                    trace back to the late 1970s, which explains why our chart only shows songs from 1982 to today. Based on our understading 
-                    of the West Coast genre, the artist started and stayed true to the genre through out their music career. Where the Dance Pop
-                    artist also produce music in Pop, R&B or other similar genres.           
-                     </p>
+                      We assumed all songs produced by an artist to be of the genre associated with the artist, so even though the Dance Pop genre started in 
+                      the early 1980s, we observe that some songs have been released before that. On the contrary, the origins of West Coast 
+                      trace back to the late 1970s, which explains why our chart only shows songs from 1982 to today. Based on our understading 
+                      of the West Coast genre, the artists started and stayed true to the genre throughout their music career, whereas the Dance Pop
+                      artist are more likely to produce music in Pop, R&B or other similar genres.           
+                   </p>
                 </div>
               
               <div class="col-md-6">
