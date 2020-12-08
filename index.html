@@ -607,14 +607,14 @@ th {
                 <div class="col-md-12">
                     <h2 class="featurette-heading"> Do song lyrics change over time? <span class="text-muted"> A deeper look into sentiment changes in lyrics.</span></h2>
                     <p class="lead"> 
-                      The trends in the music industry change through time, and even genres that appear quite different could have some trends in common. 
-                      This were done to see if the two genre over time becomes more similar or is drifting apart.
+                      The trends in the music industry change through time, and even genres that appear quite different could have some trends in common.
+                      We want to investigate whether the two genres are becoming more similar, or if they are in fact drifting further apart as time goes by.
 
-                      So by analyzing the sentiment over time and taking a closer look at the most defining words in the lyrics, it might give an
+                      Analyzing the sentiment over time and taking a closer look at the most defining words in the lyrics, might give an
                       indication of how the connection, collaboration and inspiration has evolved between the two genres. Our goal is not to predict how 
                       these two genres evolves, but to get a deeper understanding of connections already formed by two very different genres.     
 
-                      Possibly, if the sentiment of lyrics from the two genres have some of the same spikes or pits, we could link those to real life events. 
+                      If the sentiment of song lyrics from the two genres have some of the same spikes or pits, we could possibly link those to real life events. 
                       For each genre we take the songs that have a release date on Genius, group them by year and then compute the average 
                       sentiment of songs in each year.
                     </p>
@@ -654,14 +654,16 @@ th {
                 </div>
               <div class="col-md-12">
                     <div id="song_sentiment_chart_div" style="display: table; margin: 0 auto; width: 90%; height: 500px;"></div>
-                   <p class="lead"> The sentiment rises and falls over time and some years like 1996, the average sentiment in the song rises, or like 2007, 
-                    the sentiment drops in booth genre. Therefor we chose to take a closer look at the songs produced in those years. 
-                    We used wordclouds to se which words could have an effect on the average sentiment. 
-                    In 1996 the Olympic games is in US and therefor words like people, world and olympic appears in the wordclouds. There have 
-                    been written many song for and about the Olympics, which aims at unite the world. 
-                    In 2007 the word remind is frequent in booth genre and in the Dance Pop genre words like cry and upset appears, 
-                    which we did not see in 1996.         
-                     </p>
+                   <p class="lead"> 
+                    The sentiment rises and falls over time, and in some years, like 1996, the average sentiment of the lyrics rises. Similarly, in 2007, 
+                    the sentiment drops in both genres. Let's take a closer look at the songs released in those years. 
+                    We used wordclouds to inspect which words might influence the average sentiment. 
+                    In 1996 the Olympic games were in the US, and this might explain why words like "people", "world" and "olympic" appear in the wordclouds for 1996. 
+                    These words are commonly used in Olympic-themed songs, and since these words have above average sentiment scores (6.5-7), they could contribute to 
+                    an increase in overall sentiment in 1996.
+                    The sentiment seems to drop a little for both genres in 2007, and this drop could perhaps be explained by the prominence of words such as 
+                    "cry" and "upset" in the Dance Pop wordcloud and "fear" in both wordclouds. As one would expect, these three words all have quite low sentiment scores.  
+                   </p>
                 </div>
               
             </div>
