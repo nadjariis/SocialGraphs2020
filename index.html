@@ -388,13 +388,19 @@ th {
                 <div class='col-md-7'>
                     <h2 class="featurette-heading">Can we identify the genre <span class="text-muted">based on the sentiment of the artist's wikipage?</span></h2>
                     <p class="lead"> 
-                      We want to continue our investigation of the differences between the two genres, with sentiment analysis of the artists wikipages. 
-                      It could be interresting to investigate whether, based on the sentiment, one can predict which genre each artist belongs to. 
-                      
-                      The sentiment of each artists wikipage is calculated, and we have indentified the five happiest pages and the five saddest pages. Furthermore,
-                      we have selected the five most connected artists from each genre as well. The artists and the sentiment of their corresponding wikipage can
-                      be seen in the tables to the right. Interestingly, the five artists with the happiest pages are all Dance-Pop artists, while the five 
-                      artists with the saddest pages are West Coast artists.  
+                      We want to continue our investigation of the differences between the two genres, with a sentiment 
+                      analysis of the artists wikipages. Sentiment analysis refers to a text analysis to
+                      systematically identify and study subjective information in a text. We have used the 
+                      LabMT wordlist from (ref), to create our sentiment analysis. This wordlist contains information 
+                      about how happy each word on the list is, and based on this list we can look into how happy 
+                      or sad each artists wikipage is. Wikipages is supposed to be neutral, so we will expect that the 
+                      sentiment of the wikipages will be almost neutral around 5.
+
+                      Though wikipages are written in neutral language, it could be interresting to investigate 
+                      whether, based on the sentiment, one can predict which genre each artist belongs to. After
+                      calculating the sentiment of each artists wikipage, we have indentified the five happiest 
+                      pages and the five saddest pages. The artists the pages belong to are listed in the table 
+                      below with their corresponding sentiment value.  
                     </p>
                 </div>
                     <style type="text/css"><style type="text/css">
@@ -492,26 +498,28 @@ th {
                 </div>
                <div class='col-md-12'>
                  <p class='lead'>
-                  Looking at the tables, it appears that the sentiment of Dance-Pop wikipages is generally larger
-                  than that of West Coast wikipages. This is in accordance with the average sentiments,
-                  which are 5.508 for the Dance-Pop artists and 5.464 for the West Coast artists. 
-
+                  The five happiest artists are Dance Pop artists, while the five saddest artists are West 
+                  Coast artists. It could look like there was a pattern where artists from Dance Pop 
+                  have a higher sentiment score than artists from West Coast. When calculating the average
+                  sentiment score for each of the two genres, we get that the average sentiment score 
+                  for a Dance Pop artist is 5.508, while the average for a West Coast artist is 5.464. 
                   In respect to that the minimum sentiment value for the pages is 5.133 and the maximum sentiment 
-                  value is 5.920, meaning that the span is not that large. To gain a better overview, we have produced
-                  a distribution plot as seen below.
+                  value is 5.920 the difference between the genres is not that large, but still to see.
+                  A distribution plot for the sentiments of the pages is shown below.
                  </p>
                  <img src="images/SentimentArtists.png" width="100%" class="center-image">
                  <p class="lead"> 
-                      From the distribution plot it appears that the sentiment scores for the artists wikipages follow a left skewed normal distribution, with mean 5.487 and
-                      standard deviation xx. As mentioned, the span between happiest and saddest wikipage is not that large. This is most likely a consequence of the fact that
-                      wikipages are usually written in a fairly neutral language.
+                      From the distribution plot it appears that the sentiment scores for the artists wikipages
+                      follow a left skewed normal distribution, with mean 5.487 and standard deviation 0.081. The
+                      wikipages do not differ that much in sentiment score. This are also expected because we 
+                      assumes that wikipages are written in somehow a nautral language.
                    
-                      <!--From the table showing sentiments of the most connected artists we can see that Madonna,
-                      Janet Jackson, and Rihanna from the Dance-Pop genre have the highest sentiment scores, 
+                      We have looked at the sentiment score for the five most connected artists from each of the two 
+                      genres. These are listed in the table to the right. From this table we can see that Madonna,
+                      Janet Jackson, and Rihanna from the dance pop genre have the highest sentiment scores, 
                       while The Game, Snoop Dogg and Dr. Dre from the West Coast genre have the lowest sentiment scores.
-                      Which again confirm the theory about the sentiment of the two genres. However, the E-40 is an 
-                      exception because he have a sentiment score which are similar to the sentiment scores of the 
-                      dance pop artists. -->
+                      However, the E-40 is an exception because he have a sentiment score which are similar to 
+                      the sentiment scores of the Dance Pop artists. 
                     </p>
                </div>
             </div>
