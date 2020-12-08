@@ -161,10 +161,6 @@ th {
                 </div>
                 <div class="col-md-7 order-md-1">
                   <img src="images/BasicGraphSmall.png" width="100%">
-<!--                    <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="https://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 500x500"> -->
-<!--                        <title>Placeholder</title> -->
-<!--                        <rect width="100%" height="100%" fill="#eee" /><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text> -->
-<!--                    </svg> -->
                 </div>
             </div>
             <hr class="featurette-divider" id="id_network">
@@ -325,7 +321,7 @@ th {
                       One way to learn more about our communities would be to make wordclouds, which are simply visualizations consisting of
                       free-floating words, where the size of the words indicate their relevance. Since we have a bunch of text from the
                       Wikipedia pages, we can easily make a corpus for each community, containing all the text from the artists belonging to the 
-                      given community. The relevance of each word can then be determined by the use of TF-IDF, which is described 
+                      given community. The relevance of each word can then be determined by the use of TF-IDF <a href="https://en.wikipedia.org/wiki/Tf–idf">[2]</a>, which is described 
                       in-depth in the Explainer Notebook. Below are wordclouds for the five largest communities. 
                     </p>
                     </div>
@@ -368,7 +364,7 @@ th {
                       investigate whether there are some words that are typical for the genres. Wordclouds are a great tool for investigating exactly this
                       and as with the communities, we can easily make a corpus for each genre containing all the text from the artists belonging to the 
                       given genre. However, TF-IDF can get a bit weird when we only have to groups to compare. Instead, we introduce term ratios (TR) and combine this with term 
-                      frequencies (TF) to make TF-TR lists that will work specifically in the cases where we want to compare two groups. This measure is further
+                      frequencies (TF) to make TF-TR lists that will work specifically in the cases where we want to compare two groups <a href="https://nbviewer.jupyter.org/github/socialcomplexitylab/socialgraphs2020/blob/master/lectures/Week7.ipynb?flush_cache=Ttrue">[2]</a>. This measure is further
                       described in the Explainer Notebook. Below are two wordclouds; one for each genre.
                     </p>
                 </div>
