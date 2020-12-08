@@ -177,7 +177,7 @@ th {
                     </div>
                     <p class="lead">
                       We observe that the degree distribution appears to follow a power law (approximately, at least) with many nodes having small degree and a few nodes having very large degree. 
-                      This indicates that we are dealing with a scale-free network, which means that we expect the emergence of hubs in the network. A hub is simply a node with a number of connections that greatly exceeds the average <a href="https://en.wikipedia.org/wiki/Hub_(network_science)">[2]</a>. 
+                      This indicates that we are dealing with a scale-free network, which means that we expect the emergence of hubs in the network. A hub is simply a node with a number of connections that greatly exceeds the average <a href="https://en.wikipedia.org/wiki/Hub_(network_science)">[1]</a>. 
                       In this case, some hubs could be e.g. Snoop Dogg and Madonna. 
                       <br>
                       Now that we know a little more about the nodes in the network, let's take a closer look at a section of the network. Knowing the average degree to be 11.35,
@@ -206,7 +206,7 @@ th {
                 <div class="col-md-5">
                     <h2 class="featurette-heading">Finding communities <br> <span class="text-muted">within the network.</span></h2>
                     <p class="lead">
-                      A network is said to have community structure if the nodes of the network can be grouped into sets of nodes, such that each set of nodes is densely connected internally <a href="https://en.wikipedia.org/wiki/Community_structure">[1]</a>. 
+                      A network is said to have community structure if the nodes of the network can be grouped into sets of nodes, such that each set of nodes is densely connected internally <a href="https://en.wikipedia.org/wiki/Community_structure">[2]</a>. 
                       With the use of specific algorithms we were able to find around 13 communities in our artist network. The five largest communities 
                       consist of more than 50 artists, while the rest of the communities consist of less than 17 artists. To get a sense of which artists are placed in which communities, we 
                       have listed the ten artists with largest degree, from each of the five largest communities. 
@@ -321,7 +321,7 @@ th {
                       One way to learn more about our communities would be to make wordclouds, which are simply visualizations consisting of
                       free-floating words, where the size of the words indicate their relevance. Since we have a bunch of text from the
                       Wikipedia pages, we can easily make a corpus for each community, containing all the text from the artists belonging to the 
-                      given community. The relevance of each word can then be determined by the use of TF-IDF <a href="https://en.wikipedia.org/wiki/Tf–idf">[2]</a>, which is described 
+                      given community. The relevance of each word can then be determined by the use of TF-IDF <a href="https://en.wikipedia.org/wiki/Tf–idf">[3]</a>, which is described 
                       in-depth in the Explainer Notebook. Below are wordclouds for the five largest communities. 
                     </p>
                     </div>
@@ -362,7 +362,7 @@ th {
                       investigate whether there are some words that are typical for the genres. Wordclouds are a great tool for investigating exactly this
                       and as with the communities, we can easily make a corpus for each genre containing all the text from the artists belonging to the 
                       given genre. However, TF-IDF can get a bit weird when we only have to groups to compare. Instead, we introduce term ratios (TR) and combine this with term 
-                      frequencies (TF) to make TF-TR lists that will work specifically in the cases where we want to compare two groups <a href="https://nbviewer.jupyter.org/github/socialcomplexitylab/socialgraphs2020/blob/master/lectures/Week7.ipynb?flush_cache=Ttrue">[2]</a>. This measure is further
+                      frequencies (TF) to make TF-TR lists that will work specifically in the cases where we want to compare two groups <a href="https://nbviewer.jupyter.org/github/socialcomplexitylab/socialgraphs2020/blob/master/lectures/Week7.ipynb?flush_cache=Ttrue">[4]</a>. This measure is further
                       described in the Explainer Notebook. Below are two wordclouds; one for each genre.
                     </p>
                 </div>
@@ -398,7 +398,7 @@ th {
                       We want to continue our investigation of the differences between the two genres, with a sentiment 
                       analysis of the artists wikipages. Sentiment analysis refers to a text analysis to
                       systematically identify and study subjective information in a text. We have used the 
-                      LabMT wordlist from <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0026752">[2]</a>, to create our sentiment analysis. This wordlist contains information 
+                      LabMT wordlist from <a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0026752">[5]</a>, to create our sentiment analysis. This wordlist contains information 
                       about how "happy" each word on the list is, and based on this list we can look into how happy 
                       or sad each artist's wikipage is. Wikipages are supposed to be neutral, so we will expect that the 
                       sentiment of the wikipages will be around 5, which is a neutral score.
