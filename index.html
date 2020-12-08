@@ -550,23 +550,37 @@ th {
             <div class="row featurette">
                 <div class="col-md-12">
                     <h2 class="featurette-heading">Investigating song lyrics <br> <span class="text-muted"> and differences across the genres. </span></h2>
-                    <p class="lead">To get a better understanding of the artist which defines the two genres. We found
+                    <p class="lead">
+                      <!--To get a better understanding of the artist which defines the two genres. We found
                       the five artist with the highest degrees in booth genres. An artist has a high degree
                       if they have linked to other artist on their wikipage or are mentioned on other artist
                       wikipages. When an artist is mentioned it's often caused by collaceration between the 
                       two artist or they have in otherways been working together. Since we wanted to find artist 
                       which defines where genre, but also works accros genres, the degrees where calculated using the 
-                      full network.</p>
+                      full network.-->
+                      Let’s further investigate the five largest degree artists from each genre. An artist has a large degree if their wikipage links
+                      to a lot of other pages, and/or if they are linked to by a lot of other artists’ wikipages. When an artist is mentioned it's often a result of a collaboration between the two artists, or perhaps an a sign of one artist influencing the other to some degree. 
+                      The degrees were calculated using the full network, as some artists might be linked to more often by artists outside of the genre they belong to.
+                    </p>
 
                     <p class="lead">
-                      First, lets take a look at the defining artist in Dance Pop and the words which defines there music. 
+                      First, let’s take a look at the five largest degree artists in Dance Pop, and investigate the words that defines their music. 
+                      The artists in Dance Pop with largest degree (booth in- and out-degrees) are Britney Spears (90), Madonna (87), Rihanna (76), 
+                      Nicki Minaj (61) and Janet Jackson (59). Looking at the wordclouds below, the most defining words for this genre are “love”, “boy”, 
+                      “dream”, “life” and “God” just to name a few. The positive wording is characteristic for the genre, and the lyrics reflect the fact 
+                      that most songs are about big themes like love, dreams and God. This corresponds well with the sentiment of the lyrics, where all top 
+                      five artist, except Nicki Minaj, have sentiment above 5.5. If we take a close look at her and the artists she has collaborated with, 
+                      we can observe that she has worked with a number of West Coast Hiphop artists as well as Dance Pop artists. She is well known for 
+                      her rapping skills, and the more hardcore language is therefore reflected in her wordcloud and sentiment score.
+                      <!--First, lets take a look at the defining artist in Dance Pop and the words which defines there music. 
                       The artist in Dance Pop with highest degree (booth in- and out-degrees) are Britney Spears 90, Madonna 87, 
                       Rihanna 76, Nicki Minaj 61 and Janet Jackson 59. he most defining words for this genre is love, boy, dream, 
                       life and God to just name a few. The charactics is the positive wording  and the lyrics is defined by the fact 
                       that most song is about big themes like love, dreams and God. This aligns well its with the sentiment of the lyrics, 
                       where all top 5 artist is above 5.5 except Nicki Minaj. If we take a close look at her and the artists she has collaberated
                       with, she has worked with a number of West Coast Hiphop artist aswell as Dance Pop artist. She is well known for her 
-                      rapping skills, and the more hardcore language and word bombs is therefor a hugh part of her WordCloud and sentiment score.</p>
+                      rapping skills, and the more hardcore language and word bombs is therefor a hugh part of her WordCloud and sentiment score.-->
+                    </p>
                 </div>
                 <div class="col-md-4">
                   <img src="images/Britney Spears.png" style="width: 100%"> 
@@ -587,12 +601,20 @@ th {
       
             <div class="row featurette">
                 <div class="col-md-12">
-                    <p class="lead"> Now lets analyse the song lyrics of the top five most connected artist in the West Coast genre. The artists with 
+                    <p class="lead"> 
+                      Now let’s analyze the song lyrics of the five most connected artists in the West Coast genre. The artists with highest degrees 
+                      are Snoop Dogg (136), Dr. Dre (112), Ice Cube (85), E-40 (83) and The Game (81). The sentiments for all top five artist in the West 
+                      Coast genre are lower than the average Dance Pop artist. They use a more harsh language which is evident when looking at the sentiment 
+                      scores as well as the individual wordclouds. Some of the repeating words in the wordclouds are “mean” and “bitch”, but also “love” and 
+                      “God/heaven/dream”. So even though we would characterize the genre by the harsh language, it contains many positive words as well. So 
+                      even the hardcore rappers have a soft side.
+                      <!--Now lets analyse the song lyrics of the top five most connected artist in the West Coast genre. The artists with 
                       highest degrees are Snoop Dogg 136, Dr. Dre 112, Ice Cube 85, E-40 83 and The Game 81. 
                       The sentiment for all top five artist in the West Coast genre is lower than average Dance Pop artist. They use a more harsh 
                       language which is clear when looking at the sentiment scores aswell as the individual WordClouds. Some of the repeating words 
                       in the WordClouds are mean and bitch, but also love and God/heaven/dream. So eventhough we would characterize the genre
-                      by the harsh language, it contains many positive words aswell. So even the hardcore rappers has a softside...  </p>
+                      by the harsh language, it contains many positive words aswell. So even the hardcore rappers has a softside...  -->
+                    </p>
                 </div>
                 <div class="col-md-4">
                   <img src="images/Snoop Dogg.png" style="width: 100%"> 
