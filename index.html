@@ -510,14 +510,13 @@ th {
                <div class='col-md-12'>
                  <p class='lead'>
                    Though wikipages are written in neutral language, it could be interesting to investigate 
-                   whether, based on the sentiment, one can predict which genre each artist belongs to. After
-                   calculating the sentiment of each artists wikipage, we have indentified the five happiest 
+                   whether, based on the sentiment, one can predict which genre each artist belongs to. We have indentified the five happiest 
                    pages and the five saddest pages. The artists the pages belong to are listed in the table 
-                   to the right with their corresponding sentiment value.  
+                   to the right with their corresponding sentiment score.  
                    
                   The five happiest artists are Dance Pop artists, while the five saddest artists are West 
-                  Coast artists. It appears as though there is a pattern where artists from Dance Pop 
-                  have a higher sentiment score than artists from West Coast. When calculating the average
+                  Coast artists. It appears as though there is a pattern where artists from the Dance Pop genre 
+                  have a higher sentiment score than artists from the West Coast genre. When calculating the average
                   sentiment score for each of the two genres, we get that the average sentiment score 
                   for a Dance Pop artist is 5.508, while the average for a West Coast artist is 5.464. 
                   In respect to that, the minimum sentiment value for the pages is 5.133 and the maximum sentiment 
@@ -529,7 +528,9 @@ th {
                       From the distribution plot it appears that the sentiment scores for the artists wikipages
                       follow a left skewed normal distribution, with mean 5.487 and standard deviation 0.081. The
                       wikipages do not differ that much in sentiment score, but this is to be expected because we 
-                      assume that wikipages are written in a somewhat neutral language.
+                      assume that wikipages are written in a somewhat neutral language. The average sentiment score for the two genres
+                      is showed on the distribution plot. It is easy to see that the two genres have overlapping normal distributions, but that 
+                      the sentiment score for the West Coast artists are generally lower than the sentiment scores for the Dance Pop artists.
                  </p>
                  <p class="lead">
                       We have looked at the sentiment score for the five most connected artists from each of the two 
