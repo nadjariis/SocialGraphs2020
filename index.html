@@ -532,13 +532,16 @@ th {
                       follow a left skewed normal distribution, with mean 5.487 and standard deviation 0.081. The
                       wikipages do not differ that much in sentiment score, but this is to be expected because we 
                       assume that wikipages are written in a somewhat neutral language. The average sentiment score for the two genres
-                      is showed on the distribution plot. It is easy to see that the two genres have overlapping normal distributions, but that 
+                      is shown on the distribution plot. It is easy to see that the two genres have overlapping normal distributions, but that 
                       the sentiment score for the West Coast artists are generally lower than the sentiment scores for the Dance Pop artists.
                  </p>
                  <p class="lead">
-                      We have looked at the sentiment score for the five most connected artists from each of the two 
-                      genres. These are listed in the table above. From this table we can see that Madonna,
-                      Janet Jackson, and Rihanna from the Dance Pop genre have the highest sentiment scores, 
+                      We have looked at the sentiment score for the five largest degree artists from each of the two 
+                      genres. These are listed in the table above. An artist has a large degree if their wikipage links
+                      to a lot of other pages, and/or if they are linked to by a lot of other artists’ wikipages. When an artist is mentioned it's often a result of a collaboration between the two artists, or perhaps an a sign of one artist influencing the other. 
+                      The degrees were calculated using the full network, as some artists might be linked to more often by artists outside of the genre they belong to.
+                   
+                      From the table we can see that Madonna, Janet Jackson, and Rihanna from the Dance Pop genre have the highest sentiment scores, 
                       while The Game, Snoop Dogg and Dr. Dre from the West Coast genre have the lowest sentiment scores.
                       However, E-40 is an exception because he has a sentiment score which is similar to 
                       the sentiment scores of the Dance Pop artists.   
@@ -556,35 +559,14 @@ th {
                 <div class="col-md-12">
                     <h2 class="featurette-heading">Investigating song lyrics <br> <span class="text-muted"> and differences across the genres. </span></h2>
                     <p class="lead">
-                      <!--To get a better understanding of the artist which defines the two genres. We found
-                      the five artist with the highest degrees in booth genres. An artist has a high degree
-                      if they have linked to other artist on their wikipage or are mentioned on other artist
-                      wikipages. When an artist is mentioned it's often caused by collaceration between the 
-                      two artist or they have in otherways been working together. Since we wanted to find artist 
-                      which defines where genre, but also works accros genres, the degrees where calculated using the 
-                      full network.-->
-                      Let’s further investigate the five largest degree artists from each genre. An artist has a large degree if their wikipage links
-                      to a lot of other pages, and/or if they are linked to by a lot of other artists’ wikipages. When an artist is mentioned it's often a result of a collaboration between the two artists, or perhaps an a sign of one artist influencing the other to some degree. 
-                      The degrees were calculated using the full network, as some artists might be linked to more often by artists outside of the genre they belong to.
-                    </p>
-
-                    <p class="lead">
-                      First, let’s take a look at the five largest degree artists in Dance Pop, and investigate the words that defines their music. 
-                      The artists in Dance Pop with largest degree (booth in- and out-degrees) are Britney Spears (90), Madonna (87), Rihanna (76), 
+                      First, let’s take a look at the five largest degree artists in Dance Pop, and investigate the words that define their music. 
+                      The artists in Dance Pop with largest degree (both in- and out-degrees) are Britney Spears (90), Madonna (87), Rihanna (76), 
                       Nicki Minaj (61) and Janet Jackson (59). Looking at the wordclouds below, the most defining words for this genre are “love”, “boy”, 
                       “dream”, “life” and “God” just to name a few. The positive wording is characteristic for the genre, and the lyrics reflect the fact 
                       that most songs are about big themes like love, dreams and God. This corresponds well with the sentiment of the lyrics, where all top 
-                      five artist, except Nicki Minaj, have sentiment above 5.5. If we take a close look at her and the artists she has collaborated with, 
+                      five artists, except Nicki Minaj, have sentiments above 5.5. If we take a closer look at Nicki Minaj and the artists she has collaborated with, 
                       we can observe that she has worked with a number of West Coast Hiphop artists as well as Dance Pop artists. She is well known for 
                       her rapping skills, and the more hardcore language is therefore reflected in her wordcloud and sentiment score.
-                      <!--First, lets take a look at the defining artist in Dance Pop and the words which defines there music. 
-                      The artist in Dance Pop with highest degree (booth in- and out-degrees) are Britney Spears 90, Madonna 87, 
-                      Rihanna 76, Nicki Minaj 61 and Janet Jackson 59. he most defining words for this genre is love, boy, dream, 
-                      life and God to just name a few. The charactics is the positive wording  and the lyrics is defined by the fact 
-                      that most song is about big themes like love, dreams and God. This aligns well its with the sentiment of the lyrics, 
-                      where all top 5 artist is above 5.5 except Nicki Minaj. If we take a close look at her and the artists she has collaberated
-                      with, she has worked with a number of West Coast Hiphop artist aswell as Dance Pop artist. She is well known for her 
-                      rapping skills, and the more hardcore language and word bombs is therefor a hugh part of her WordCloud and sentiment score.-->
                     </p>
                 </div>
                 <div class="col-md-4">
@@ -607,18 +589,12 @@ th {
             <div class="row featurette">
                 <div class="col-md-12">
                     <p class="lead"> 
-                      Now let’s analyze the song lyrics of the five most connected artists in the West Coast genre. The artists with highest degrees 
-                      are Snoop Dogg (136), Dr. Dre (112), Ice Cube (85), E-40 (83) and The Game (81). The sentiments for all top five artist in the West 
-                      Coast genre are lower than the average Dance Pop artist. They use a more harsh language which is evident when looking at the sentiment 
+                      Now let’s analyze the song lyrics of the five most connected artists in the West Coast genre. The artists with largest degrees 
+                      are Snoop Dogg (136), Dr. Dre (112), Ice Cube (85), E-40 (83) and The Game (81). The sentiments for all top five artists in the West 
+                      Coast genre are lower than the average sentiment for a Dance Pop artist. They use a more harsh language which is evident when looking at the sentiment 
                       scores as well as the individual wordclouds. Some of the repeating words in the wordclouds are “mean” and “bitch”, but also “love” and 
-                      “God/heaven/dream”. So even though we would characterize the genre by the harsh language, it contains many positive words as well. So 
+                      “God/heaven/dream”. So even though we would characterize the genre by the harsh language, it contains many positive words as well. Apparently 
                       even the hardcore rappers have a soft side.
-                      <!--Now lets analyse the song lyrics of the top five most connected artist in the West Coast genre. The artists with 
-                      highest degrees are Snoop Dogg 136, Dr. Dre 112, Ice Cube 85, E-40 83 and The Game 81. 
-                      The sentiment for all top five artist in the West Coast genre is lower than average Dance Pop artist. They use a more harsh 
-                      language which is clear when looking at the sentiment scores aswell as the individual WordClouds. Some of the repeating words 
-                      in the WordClouds are mean and bitch, but also love and God/heaven/dream. So eventhough we would characterize the genre
-                      by the harsh language, it contains many positive words aswell. So even the hardcore rappers has a softside...  -->
                     </p>
                 </div>
                 <div class="col-md-4">
@@ -655,9 +631,9 @@ th {
                       indication of how the connection, collaboration and inspiration has evolved between the two genres. Our goal is not to predict how 
                       these two genres evolves, but to get a deeper understanding of connections already formed by two very different genres.     
 
-                      If the sentiment of song lyrics from the two genres have some of the same spikes or pits, we could possibly link those to real life events. 
+                      If the sentiments of song lyrics from the two genres have some of the same spikes or pits, we could possibly link those to real life events. 
                       For each genre we take the songs that have a release date on Genius, group them by year and then compute the average 
-                      sentiment of songs in each year. Hovering over the lines in the plot shows the average sentiment that year and the number of songs its based upon. 
+                      sentiment of songs in each year. Hovering over the lines in the plot shows the average sentiment that year and the number of songs it's based upon. 
                     </p>
                 </div>
             </div>
@@ -720,7 +696,7 @@ th {
                     <h2 class="featurette-heading">So are the two genres connected?</h2>
                     <p class="lead">
                       The wikipedia text provides a great overview of an artist's life and collaborations as well as a brief overview of their songs. However, 
-                      the wikipages are not written by each artist themself, and so to gain deeper insight about the artist and their work in each genre, 
+                      the wikipages are not written by each artist themselves, and so to gain deeper insight about the artist and their work in each genre, 
                       we chose to analyze the lyrics of some of their songs as well. Music is art and art is an expression of feelings and emotion, which 
                       means that putting emphasis on sentiment and wordclouds when analyzing song lyrics makes great sense. First we aimed to explain the 
                       word use in each genre and use that insight to find indications of collaborations between artists. As representatives for the genres, 
@@ -728,8 +704,7 @@ th {
                       Nicki Minaj, have a sentiment score more fitting for a West Coast artist and the wordcloud showed a tendency to use the same language 
                       as the West Coast rappers.
                       Over time the sentiments of the songs in the two genres become more similar. This could indicate more collaborations between the two 
-                      genres, and the wordclouds for Dance Pop from 2007 show a couple of words associated with the West Coast genre. As a side note, the 
-                      songs from 1996 contains words about the olympic, and this just goes to show the influence of real events.
+                      genres, and the wordclouds for Dance Pop from 2007 show a couple of words associated with the West Coast genre. 
                       So are the two genres connected? Although the genres could be separated into two distinguishable clusters in the network, through 
                       our analysis we have found plenty of evidence indicating that the two genres are connected, e.g. with respect to sentiment of song lyrics.
                     </p>
